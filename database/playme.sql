@@ -375,7 +375,7 @@ INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classificat
 INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classification, remark, bk_time, balance) VALUES (171011050, 171010, 20200011, 30, 0, 2, null, '2021-05-06 17:15:40', null);
 INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classification, remark, bk_time, balance) VALUES (171011051, 171010, 20200011, 40, 0, 2, null, '2021-04-06 17:15:44', null);
 INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classification, remark, bk_time, balance) VALUES (171011052, 171010, 20200011, 80, 0, 2, null, '2021-03-06 19:31:44', null);
-INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classification, remark, bk_time, balance) VALUES (171011056, 171010, 20200011, 1000, 1, 0, '红包🧧', '2021-06-01 15:51:47', null);
+INSERT INTO tb_bookkeeping (id, room_id, user_id, bk_money, bk_type, classification, remark, bk_time, balance) VALUES (171011056, 171010, 20200011, 1000, 1, 0, '红包', '2021-06-01 15:51:47', null);
 
 
 
@@ -431,15 +431,15 @@ INSERT INTO tb_menu (id, title, icon, href, target, parent_id, user_type) VALUES
 
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293401, 20200035, '后天下午停电', '后天（4月4日）下午3:00~5:00，17栋停电', 17, 1, '2021-04-02 11:49:17');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293402, 20200035, '大功率电器检查', '5月4日~5月8日随机抽查大功率电器使用情况', 17, 0, '2021-05-01 11:53:00');
-INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293403, 20200035, '明日特大暴雨⛈', '明天白天有特大暴雨，请尽量待在宿舍，避免外出!!!', 17, 1, '2021-05-22 12:34:09');
+INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293403, 20200035, '明日特大暴雨', '明天白天有特大暴雨，请尽量待在宿舍，避免外出!!!', 17, 1, '2021-05-22 12:34:09');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293407, 20200035, '失物招领', '遗失一张尾号为2093的校园卡的同学请到17栋1001取回丢失的卡片', 17, 0, '2021-05-29 12:54:31');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293410, 20200011, '下午开班会', '下午2:00~2:50在R5032开班会', 0, 0, '2021-04-27 08:19:54');
-INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293411, 20192202, '帮忙带份午饭吧', '一份黄焖鸡🐥米饭🍚，不加辣椒。跑路费20块', 0, 0, '2021-05-06 08:21:09');
+INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293411, 20192202, '帮忙带份午饭吧', '一份黄焖鸡米饭，不加辣椒。跑路费20块', 0, 0, '2021-05-06 08:21:09');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293412, 20192893, '下周二考试', '明早开始在图书馆集合', 0, 1, '2021-05-30 08:22:51');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293413, 20192895, '本周卫生安排', '周一：euria；周二：arya', 0, 0, '2021-04-26 08:25:01');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293414, 20229383, '水电缴费', '总计28.5元', 0, 0, '2021-06-02 08:32:51');
 INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293427, 20200035, '宽带提速', '7月1日起，所有房间宽带免费升级至千兆。届时下载速度峰值将会提升至130Mb/s', 17, 0, '2021-06-01 10:10:20');
-INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293428, 20200011, '不许剧透Loki！', '剧透者删除好友一个月🤛🏻', 0, 1, '2021-06-02 10:20:35');
+INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, noti_type, noti_date) VALUES (180293428, 20200011, '不许剧透Loki！', '剧透者删除好友一个月', 0, 1, '2021-06-02 10:20:35');
 
 
 
@@ -447,14 +447,14 @@ INSERT INTO tb_notification (id, user_id, noti_head, noti_content, noti_range, n
 
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200302, '椅子', '椅子被某人坐断了一条腿', '2021-02-11 10:07:05', 20229815, 12, 122001, 1, null);
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200303, '插座', '宿舍门左侧的插座不通电', '2021-02-16 09:45:17', 20200394, 14, 142023, 1, '张师傅');
-INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200305, '水龙头🚰', '阳台水龙头不能完全拧紧', '2021-03-10 11:07:53', 20200011, 17, 171010, 1, null);
+INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200305, '水龙头', '阳台水龙头不能完全拧紧', '2021-03-10 11:07:53', 20200011, 17, 171010, 1, null);
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200306, '门', '刚搬进来就是坏的', '2021-03-13 10:06:57', 20192895, 12, 123009, 1, '黄诗扶');
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200307, '门锁', '周围寝室的钥匙都能打开我们寝室的门', '2021-03-15 13:24:09', 20160811, 11, 115001, 0, null);
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200308, '风扇', '风扇不能制热', '2021-03-22 11:01:03', 20192893, 17, 171010, 2, null);
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200312, '厕所镜子', '因冷热交替而裂开', '2021-04-01 13:24:06', 20192202, 17, 171010, 1, null);
-INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200316, '花花🌸', '她枯萎了！🥺', '2021-04-10 11:59:21', 20200011, 17, 171010, 2, null);
-INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200317, '厕所水管', '水管爆裂💥', '2021-04-20 13:15:23', 20200011, 17, 171010, 1, null);
-INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200318, '春天🛼', 'SpringBoot出bug🕷了...', '2021-05-15 18:04:57', 20200011, 17, 171010, 0, null);
+INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200316, '花花', '她枯萎了！', '2021-04-10 11:59:21', 20200011, 17, 171010, 2, null);
+INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200317, '厕所水管', '水管爆裂', '2021-04-20 13:15:23', 20200011, 17, 171010, 1, null);
+INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200318, '春天', 'SpringBoot出bug了...', '2021-05-15 18:04:57', 20200011, 17, 171010, 0, null);
 INSERT INTO tb_repair (id, rep_item, description, rep_date, stu_id, building_id, room_id, rep_status, rep_man) VALUES (10200324, 'repair_item', 'repair_description', '2021-05-08 20:35:03', 20200011, 17, 171010, 0, null);
 
 
@@ -564,10 +564,10 @@ INSERT INTO tb_room (id, building_id, brand, floor, room_capacity, room_status, 
 
 
 INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (1, 20200011, 'PPT', '完成中期检查相关PPT', '2021-04-06 17:16:25', '我的宿舍', 1);
-INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (2, 20200011, '为老马分忧', '从刹车开始🐶', '2021-06-23 17:45:55', '上海自贸试验区', 2);
-INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (3, 20200011, '滑雪课🎿', '无', '2021-07-03 17:22:28', '张家口', 0);
+INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (2, 20200011, '为老马分忧', '从刹车开始', '2021-06-23 17:45:55', '上海自贸试验区', 2);
+INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (3, 20200011, '滑雪课', '无', '2021-07-03 17:22:28', '张家口', 0);
 INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (4, 20200011, '给小米设计新Logo', '需要先与雷总谈好价钱', '2021-06-30 17:25:25', '北京小米科技', 1);
-INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (8, 20200011, '与Snyder剧组共进晚餐', '可别忘了和Cavill、Gadot合影📸', '2021-07-12 00:00:00', 'Burbank, LA', 2);
+INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (8, 20200011, '与Snyder剧组共进晚餐', '可别忘了和Cavill、Gadot合影', '2021-07-12 00:00:00', 'Burbank, LA', 2);
 INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (14, 20200010, 'PPT', '完成PPT制作', '2021-05-12 20:40:32', '四川，成都', 0);
 INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (15, 20200010, '文档', '完成项目相关的文档', '2021-06-10 20:40:39', '四川，成都', 0);
 INSERT INTO tb_schedule (id, user_id, sch_name, sch_content, sch_time, sch_location, sch_priority) VALUES (16, 20200010, '买文具', '包括活页本、签字笔', '2021-07-02 20:40:46', '四川，成都', 1);
